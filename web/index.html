@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Генератор КП по фасадной системе ИНСИ | Demo</title>
+    <meta
+      name="description"
+      content="Результат расчёта фасада → готовое коммерческое предложение: смета по прайсу ИНСИ, декомпозиция цены, ₽/м², условия и PDF."
+    />
+    <script>
+      (function () {
+        var t = localStorage.getItem('theme')
+        if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark')
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

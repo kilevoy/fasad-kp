@@ -1,0 +1,23 @@
+# Секреты
+.env
+
+# Вывод
+out/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node / web build
+node_modules/
+web/node_modules/
+web/dist/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
