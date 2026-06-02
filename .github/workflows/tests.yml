@@ -12,6 +12,10 @@ on:
   pull_request:
   workflow_dispatch:
 
+env:
+  # Запускать JS-экшены на Node 24 (Node 20 в actions деприкейтят с осени 2026).
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   pytest:
     runs-on: ubuntu-latest
